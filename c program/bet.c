@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int c1,c2,c3,c4,c5 ;
+	scanf("%d%d%d%d%d",&c1,&c2,&c3,&c4,&c5);
+	if((c1+c2+c3+c4+c5)>=5){
+	
+	if((c1+c2+c3+c4+c5)% 5==0){
+		printf("%d",(c1+c2+c3+c4+c5)/5);
+		return 0 ;
+	}
+	
+}
+ 	printf("-1") ;
+	return 0 ;
+
+}
+
